@@ -1,2 +1,6 @@
-public class DarkRoast {
+public class DarkRoast extends Beverage{
+    @Override
+    public double cost() {
+        return 2.50;
+    }
 }
